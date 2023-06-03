@@ -1,0 +1,23 @@
+---
+compiled_package_info:
+  package_name: ZqTest
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    zq_test: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: F94A732E84A6F1DCC2263FFC5FEBC7989EF487B603BAA7EAB5ECFDAC98FF2592
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
